@@ -1,0 +1,89 @@
+@font-face {
+  font-family: answer;
+  src: url('../../fonts/SunnyspellsRegular-MV9ze.otf');
+}
+
+@font-face {
+  font-family: category;
+  src: url('../../fonts/DigitaltsOrange-nRAPg.ttf');
+}
+
+@font-face {
+  font-family: question;
+  src: url('../../fonts/XTypewriter-z8oP4.ttf');
+}
+
+.category {
+  font-family: category , sans-serif;
+  font-size: 1.55rem;
+}
+
+.question {
+  font-family: question , sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+}
+
+.correct {
+  animation: animate 4s linear infinite;
+  background-color: #48c78e;
+  border: 3px solid rgb(6, 240, 15);
+  color: white;
+}
+
+.incorrect {
+  background-color: #f14668;
+  border: 3px solid red;
+  color: white;
+}
+
+.inicial {
+  background-color: transparent;
+  border: 3px solid black;
+  color: #48c78e;
+}
+
+.incorrect, .inicial, .correct {
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: answer , sans-serif;
+  font-size: 1.55rem;
+  height: 2.5em;
+  justify-content: center;
+  margin: 0 10px;
+  padding: calc(0.5em - 1px) 1em;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.btnNext {
+  display: grid;
+  height: 39px;
+  justify-items: right;
+  margin-top: 10px;
+  width: 100%;
+}
+
+@keyframes animate {
+
+  0% {
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 0.7;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  85% {
+    opacity: 0.7;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

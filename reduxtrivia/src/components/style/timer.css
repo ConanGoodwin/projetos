@@ -1,0 +1,13 @@
+@font-face {
+  font-family: clock;
+  src: url('../../fonts/NovaDisplayRegular-x3w8O.otf');
+}
+
+.time {
+  font-family: clock , sans-serif;
+  font-size: xx-large;
+}
+
+.time_critical {
+  color: red;
+}

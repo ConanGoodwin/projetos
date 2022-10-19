@@ -1,0 +1,16 @@
+@font-face {
+  font-family: nogood;
+  src: url('../../fonts/DigitaltsLime-lgxmd.ttf');
+}
+
+.done {
+  font-family: category , sans-serif;
+}
+
+.better {
+  font-family: nogood , sans-serif;
+}
+
+.assertions {
+  color: rgb(57, 51, 63);
+}

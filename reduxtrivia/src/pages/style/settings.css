@@ -1,0 +1,13 @@
+.sett_ings {
+  display: flex-flow;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+
+.marg {
+  margin: 20px 0 10px;
+}
+
+.select, .mor {
+  width: 100%;
+}

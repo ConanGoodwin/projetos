@@ -1,0 +1,77 @@
+@font-face {
+  font-family: score;
+  src: url('../../fonts/3DIsometricBlack-BWPPG.ttf');
+}
+
+@font-face {
+  font-family: user;
+  src: url('../../fonts/CollegiateheavyoutlineMedium-B0yx.ttf');
+}
+
+.borderScore {
+  border: 3px double white;
+  border-radius: 10%;
+  box-shadow: 3px 3px #888;
+  margin: 10px;
+}
+
+.subBorder {
+  animation: animate2 3s linear infinite;
+  border: 1px inset #888;
+  border-radius: 10%;
+  padding: 5px 10px;
+}
+
+.user {
+  color: gainsboro;
+  font-family: user , sans-serif;
+  font-size: xx-large;
+}
+
+.score {
+  animation: animate 3s linear infinite;
+  color: yellow;
+  font-family: score , sans-serif;
+  font-size: xx-large;
+}
+
+@keyframes animate {
+
+  0% {
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 0.7;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  85% {
+    opacity: 0.7;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animate2 {
+
+  0% {
+    background-color: rgba(0, 21, 255, 0.045);
+    border-color: red;
+  }
+
+  50% {
+    background-color: rgba(0, 21, 255, 0.197);
+    border-color: #888;
+  }
+
+  100% {
+    background-color: rgba(0, 21, 255, 0.045);
+    border-color: red;
+  }
+}
